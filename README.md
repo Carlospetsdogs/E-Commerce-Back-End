@@ -1,9 +1,10 @@
 # E-Commerce-Back-End 
 
 ## Usage:
-This application 
+This application is a fully back end application intended to help a user organize and search through a product database for an E-commerce website. 
+
 ## Installation:
--need express.js, sequelize, mysql2, node.js, &dotenv package
+-need express.js, sequelize, mysql2, node.js dotenv package
 
 - `npm i`
 
