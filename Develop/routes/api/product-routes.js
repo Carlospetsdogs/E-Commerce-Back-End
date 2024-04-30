@@ -14,11 +14,11 @@ router.get('/', (req, res) => {
       },
     ],
   })
-  .then((products) => res.json(products))
-  .catch((err) => {
-    console.log(err);
-    res.status(500).json(err);
-  });
+    .then((products) => res.json(products))
+    .catch((err) => {
+      console.log(err);
+      res.status(500).json(err);
+    });
 });
 
 // get one product
@@ -119,6 +119,7 @@ router.put('/:id', (req, res) => {
     });
 });
 
+// delete products by id 
 router.delete('/:id', (req, res) => {
   Product.destroy({
     where: {
