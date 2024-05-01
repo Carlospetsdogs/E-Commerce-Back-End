@@ -6,6 +6,8 @@ This application is a fully back end application intended to help a user organiz
 ## Installation:
 -need express.js, sequelize, mysql2, node.js and dotenv package
 
+-`cd` into "Develop" directory
+
 -`npm i`
 
 -`node seeds/index.js`

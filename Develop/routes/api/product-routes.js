@@ -128,7 +128,7 @@ router.delete('/:id', (req, res) => {
   })
     .then((products) => {
       console.log(products);
-      res.json
+      res.json(products)
     })
     .catch((err) => {
       console.log(err);
