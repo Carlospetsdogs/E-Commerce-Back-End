@@ -8,6 +8,12 @@ This application is a fully back end application intended to help a user organiz
 
 -`cd` into "Develop" directory
 
+-`run mysql`
+
+-run `SOURCE db/schema.sql;`
+
+-`quit` mysql
+
 -`npm i`
 
 -`node seeds/index.js`
