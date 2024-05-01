@@ -18,7 +18,7 @@ This application is a fully back end application intended to help a user organiz
 
 -`node seeds/index.js`
 
--`node server.js`
+-`node server.js` or `npm start`
 
 ## Demonstration video:
 
